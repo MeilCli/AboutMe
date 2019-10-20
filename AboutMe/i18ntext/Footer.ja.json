@@ -1,0 +1,8 @@
+{
+  "AboutMe": ".NET・Androidエンジニア<br />好きなCIはAzure PipelinesとGitHub Actions",
+  "Link": "リンク",
+  "Blog": "ブログ",
+  "Resume": "レジュメ",
+  "Sns": "SNS",
+  "Copyright": "このサイトは<a href=\"http://blazor.net\" target=\"_blank\">Blazor</a>という技術を使っています。オリジナルのソースは<a href=\"https://github.com/MeilCli/AboutMe\" target=\"_blank\">GitHub</a>に公開しています"
+}

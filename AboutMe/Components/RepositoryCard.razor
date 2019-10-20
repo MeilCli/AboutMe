@@ -1,0 +1,29 @@
+﻿<div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+        <div class="card-body">
+            <h5 class="card-title">@(Repository.Title)</h5>
+            <p class="card-text">@(Repository.Description)</p>
+            <p class="text-left"><a class="btn btn-outline-primary stretched-link" href="@Repository.Url" target="_blank">Show</a></p>
+            <div class="text-right">
+                @foreach (var (tag, index) in Repository.Tags.Select((x, i) => (x, i)))
+                {
+                    @if (index == 0)
+                    {
+                        <small class="text-muted">@tag</small>
+                    }
+                    else
+                    {
+                        <small class="text-muted">, @tag</small>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code
+{
+#nullable disable
+    [Parameter]
+    public Repository Repository { get; set; }
+}

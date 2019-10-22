@@ -1,0 +1,62 @@
+<div class="container">
+  <h3>レジュメ</h3>
+  <p class="text-muted">
+    Level 1: AAA, Level 2: BBB, Level 3: CCC, Level 4: DDD, Level 5: EEE
+  </p>
+  <div class="row">
+    <app-skill-chart
+      class="col-12 col-md-6 col-lg-4"
+      *ngFor="let skill of skills; let i = index"
+      [skill]="skill"
+      [color]="colors[i % colors.length]"
+    ></app-skill-chart>
+  </div>
+
+  <h3>タイムライン</h3>
+  <ul class="timeline">
+    <li class="timeline-line"></li>
+    <li class="timeline-group">
+      <h4><span class="badge badge-pill badge-primary">2011</span></h4>
+    </li>
+  </ul>
+  <ul class="timeline">
+    <li class="timeline-line"></li>
+    <li class="timeline-item" *ngFor="let timeline of timelines">
+      <div class="timeline-badge"></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          {{ timeline.title }}
+          <div class="timeline-date">
+            {{ timeline.date }}
+          </div>
+        </div>
+        <div class="timeline-content">
+          <p>
+            {{ timeline.description }}
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <ul class="timeline">
+    <li class="timeline-line"></li>
+    <li class="timeline-group">
+      <h4><span class="badge badge-pill badge-primary">Today</span></h4>
+    </li>
+  </ul>
+  <ul class="timeline">
+    <li class="timeline-line"></li>
+    <!-- /.timeline-line -->
+    <li class="timeline-item block">
+      <div class="timeline-badge"></div>
+      <div class="timeline-panel">
+        <div class="timeline-content">
+          <div class="text-center">
+            <h4>MeilCli</h4>
+            <p class="timeline-date">.NET・Androidエンジニアー</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -22,6 +22,7 @@ import { ProductsComponent } from "./products/products.component";
 import { ResumeComponent } from "./resume/resume.component";
 import { SkillChartComponent } from "./components/skill-chart/skill-chart.component";
 import { TimelineService } from "./services/timeline.service";
+import { AboutComponent } from "./about/about.component";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TimelineService } from "./services/timeline.service";
     ProductCardComponent,
     ProductsComponent,
     ResumeComponent,
-    SkillChartComponent
+    SkillChartComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

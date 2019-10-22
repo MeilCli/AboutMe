@@ -135,6 +135,24 @@
     "tags": ["C#", ".NET Standard"]
   },
   {
+    "title": "AboutMe",
+    "description": "このサイトのソースコード",
+    "url": "https://github.com/MeilCli/AboutMe",
+    "path": null,
+    "type": "アプリケーション",
+    "relationShipToProduct": "オーナー",
+    "tags": ["TypeScript", "Angular"]
+  },
+  {
+    "title": "actions",
+    "description": "actionを作りすぎてGitHubのユーザーページにpinを仕切れなくなったための苦肉の策としてのaction集",
+    "url": "https://github.com/MeilCli/actions",
+    "path": null,
+    "type": "その他",
+    "relationShipToProduct": "オーナー",
+    "tags": []
+  },
+  {
     "title": "GradleMultiDensitySpoonPlugin",
     "description": "様々な画面サイズで実行させるためのGradle Spoon Pluginの拡張プラグイン",
     "url": "https://github.com/MobileAct/GradleMultiDensitySpoonPlugin",

@@ -1,7 +1,7 @@
 [
   {
     "title": "Jfol",
-    "description": "JSON Formation Language spec",
+    "description": "JSON Formation Language(Jfol)の言語仕様",
     "url": "https://github.com/MeilCli/Jfol",
     "path": null,
     "type": "その他",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Jfol.TS",
-    "description": "Jfol TypeScript implementation",
+    "description": "JfolのTypeScript実装",
     "url": "https://github.com/MeilCli/Jfol.TS",
     "path": null,
     "type": "ライブラリー",
@@ -24,12 +24,12 @@
     "path": null,
     "type": "アプリケーション",
     "relationShipToProduct": "オーナー",
-    "tags": ["TypeScript", "Jfol"]
+    "tags": ["TypeScript", "Jfol", "Angular"]
   },
   {
     "title": "Jfol.Test",
     "description": "https://github.com/MeilCli/Jfol.Test",
-    "url": "Jfol test data for any implementation",
+    "url": "Jfolの様々な実装のためのテストデータ",
     "path": null,
     "type": "その他",
     "relationShipToProduct": "オーナー",
@@ -37,7 +37,7 @@
   },
   {
     "title": "setup-crystal-action",
-    "description": "JavaScript based setup Crystal action for GitHub Actions.",
+    "description": "JavaScriptベースのCrystal環境をセットアップするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/setup-crystal-action",
     "path": null,
     "type": "アクション",
@@ -46,7 +46,7 @@
   },
   {
     "title": "test-command-action",
-    "description": "JavaScript based testing command action for GitHub Actions.",
+    "description": "JavaScriptベースのコマンドをテストするためのGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/test-command-action",
     "path": null,
     "type": "アクション",
@@ -55,7 +55,7 @@
   },
   {
     "title": "carthage-update-check-action",
-    "description": "JavaScript based Carthage new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースの使用しているCarthageのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/carthage-update-check-action",
     "path": null,
     "type": "アクション",
@@ -64,7 +64,7 @@
   },
   {
     "title": "swiftpm-update-check-action",
-    "description": "JavaScript based SwiftPM new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースの使用しているSwiftPMのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/swiftpm-update-check-action",
     "path": null,
     "type": "アクション",
@@ -73,7 +73,7 @@
   },
   {
     "title": "cocoapods-update-check-action",
-    "description": "JavaScript based CocoaPods new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースの使用しているCocoaPodsのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/cocoapods-update-check-action",
     "path": null,
     "type": "アクション",
@@ -82,7 +82,7 @@
   },
   {
     "title": "gradle-update-check-action",
-    "description": "JavaScript based gradle maven new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースのGradleで使用しているライブラリーの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/gradle-update-check-action",
     "path": null,
     "type": "アクション",
@@ -91,7 +91,7 @@
   },
   {
     "title": "nuget-update-check-action",
-    "description": "JavaScript based nuget new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースの使用しているNuGetのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/nuget-update-check-action",
     "path": null,
     "type": "アクション",
@@ -100,7 +100,7 @@
   },
   {
     "title": "npm-update-check-action",
-    "description": "JavaScript based npm new package version check action for GitHub Actions.",
+    "description": "JavaScriptベースの使用しているnpmのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/npm-update-check-action",
     "path": null,
     "type": "アクション",
@@ -109,7 +109,7 @@
   },
   {
     "title": "danger-action",
-    "description": "JavaScript based running danger action for GitHub Actions.",
+    "description": "JavaScriptベースのDangerを実行するGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/danger-action",
     "path": null,
     "type": "アクション",
@@ -118,7 +118,7 @@
   },
   {
     "title": "SharedProperty",
-    "description": "Application setting library for .NET Standard 2.0",
+    "description": ".NET Standard向けのアプリケーションの設定を保存するライブラリー",
     "url": "https://github.com/MeilCli/SharedProperty",
     "path": null,
     "type": "ライブラリー",
@@ -127,7 +127,7 @@
   },
   {
     "title": "DetectionCore",
-    "description": "A browser detect library for .NET Standard",
+    "description": ".NET Standard向けのUserAgentからブラウザ情報を検出するライブラリー",
     "url": "https://github.com/MeilCli/DetectionCore",
     "path": null,
     "type": "ライブラリー",
@@ -136,7 +136,7 @@
   },
   {
     "title": "GradleMultiDensitySpoonPlugin",
-    "description": "Gradle Spoon Plugin Extension for multi density",
+    "description": "様々な画面サイズで実行させるためのGradle Spoon Pluginの拡張プラグイン",
     "url": "https://github.com/MobileAct/GradleMultiDensitySpoonPlugin",
     "path": null,
     "type": "ツール",
@@ -145,7 +145,7 @@
   },
   {
     "title": "RetektRule",
-    "description": "Extension rules for detekt",
+    "description": "detektの拡張ルール",
     "url": "https://github.com/MobileAct/RetektRule",
     "path": null,
     "type": "ライブラリー",
@@ -154,7 +154,7 @@
   },
   {
     "title": "Mindy",
-    "description": "Minimum DI",
+    "description": "ミニマムなDIライブラリー",
     "url": "https://github.com/MobileAct/Mindy",
     "path": null,
     "type": "ライブラリー",
@@ -163,7 +163,7 @@
   },
   {
     "title": "GithubLabelSetUpper",
-    "description": "GitHub/Gitea Label tool for template",
+    "description": "GitHub/Giteaのラベルをテンプレート化してCLIから設定できるようにするツール",
     "url": "https://github.com/MobileAct/GithubLabelSetUpper",
     "path": null,
     "type": "ツール",
@@ -172,7 +172,7 @@
   },
   {
     "title": "NavigationExtensions",
-    "description": "navex is extension for AndroidX Navigation.",
+    "description": "AndroidX Navigationの拡張Navigator集",
     "url": "https://github.com/MobileAct/NavigationExtensions",
     "path": null,
     "type": "ライブラリー",

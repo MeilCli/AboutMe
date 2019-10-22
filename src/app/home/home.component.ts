@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { IconProp, SizeProp } from "@fortawesome/fontawesome-svg-core";
+import { SizeProp } from "@fortawesome/fontawesome-svg-core";
 
 @Component({
   selector: "app-home",

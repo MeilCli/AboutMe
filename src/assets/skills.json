@@ -31,6 +31,16 @@
     ]
   },
   {
+    "category": "Architecture",
+    "elements": [
+      { "name": "MVVM", "point": 4 },
+      { "name": "MVP", "point": 4 },
+      { "name": "AAC", "point": 3 },
+      { "name": "MVI", "point": 2 },
+      { "name": "Flux", "point": 1 }
+    ]
+  },
+  {
     "category": "Framework",
     "elements": [
       { "name": "Android", "point": 5 },
@@ -48,7 +58,7 @@
     "elements": [
       { "name": ".NET Core", "point": 4 },
       { "name": ".NET Framework", "point": 3 },
-      { "name": "JVM", "point": 2 }
+      { "name": "JVM", "point": 3 }
     ]
   },
   {
@@ -56,8 +66,13 @@
     "elements": [
       { "name": "Gradle", "point": 4 },
       { "name": "git", "point": 3 },
-      { "name": "Illustrator", "point": 2 },
-      { "name": "Excel", "point": 2 }
+      { "name": "Visual Studio", "point": 3 },
+      { "name": "Visual Studio Code", "point": 3 },
+      { "name": "Visual Studio for Mac", "point": 3 },
+      { "name": "Android Studio", "point": 3 },
+      { "name": "IntelliJ IDEA", "point": 3 },
+      { "name": "Rider", "point": 3 },
+      { "name": "Xcode", "point": 2 }
     ]
   },
   {
@@ -77,14 +92,6 @@
       { "name": "GitHub Actions", "point": 4 },
       { "name": "Jenkins", "point": 1 },
       { "name": "Drone.io", "point": 2 }
-    ]
-  },
-  {
-    "category": "Package Manager",
-    "elements": [
-      { "name": "Maven", "point": 2 },
-      { "name": "NuGet", "point": 3 },
-      { "name": "npm", "point": 1 }
     ]
   }
 ]

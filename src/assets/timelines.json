@@ -2,41 +2,41 @@
   {
     "title": "プログラミングとの出会い",
     "date": "2011 - 2012",
-    "description": "Twitterのフォロワーに勧められてPHPを使ってTwitterのツールを作った"
+    "description": "Twitterのフォロワーに勧められてPHPでTwitterのツールを作り始めたのがプログラミングとの出会い。この頃はかなりの初心者"
   },
   {
     "title": "アプリを作り始める",
     "date": "2012 -",
-    "description": "自分のスマホで自分が作ったアプリを使いたくなりAndroidアプリを作り始める"
+    "description": "自分のスマホで動くアプリを作りたくなり、当時持っていたスマホがAndroidだったためAndroidアプリを作り始める。この頃になりデザインパターンやアーキテクチャーなどといったプログラミング方法論を学び始める"
   },
   {
     "title": "C#との出会い",
     "date": "2013 -",
-    "description": "スマホアプリだけじゃ飽き足らずWindowsアプリも作ってみたいなーとC#と運命的な出会いを果たす\n\nWindowsアプリを作らずにC#の沼に沈んでいく"
+    "description": "スマホアプリだけじゃ飽き足らずWindowsアプリも作ってみたいなーと思っていた頃にTwitterのフォロワーのGitHubアカウントを眺めていたらC#と運命的な出会いを果たす<br/><br/>そしてWindowsアプリを作らずにC#の沼に沈んでいく"
   },
   {
     "title": "大学生活",
     "date": "2014 - 2018",
-    "description": "それなりに知名度のある某私立の情報系学部に入学"
+    "description": "私立の某情報系学部に進学したものの周りにプログラミング強い人がおらず、大学では情報科学の基礎のみを学ぶことになる\nついでに心理学・政治学・経済学も学んでおいたものの卒業とともに忘れていってる模様"
   },
   {
     "title": "Kotlinを使い始める",
     "date": "2015 - 2016",
-    "description": "C#に影響されAndroidアプリ開発にもC#ライクなKotlinを使い始める"
+    "description": "この頃はC#にどっぷりハマっていた一方で作りたかったのはAndroidアプリだった。ちょうどそのときにC#の影響を受けたKotlinがAndroid界隈で噂になり始めたのでKotlinを使い始める"
   },
   {
     "title": "Xamarin.Androidを使い始める",
-    "date": "2016 -",
+    "date": "2016 - 2018",
     "description": "Xamarinがマイクロソフトの手によって個人向け無償化したことにより、自分の中でのKotlinの時代が終了。その後C#でAndroidアプリ開発をすることになる"
   },
   {
     "title": "アプリ開発のバイト",
     "date": "2017 - 2018",
-    "description": "内定先でアプリ開発のバイトをした。仕方なくJavaとKotlinを使"
+    "description": "内定先でアプリ開発のバイトをした。このときは主にJavaでAndroidアプリの改修をしていた"
   },
   {
     "title": "某アプリ開発会社",
     "date": "2018 -",
-    "description": "アプリ開発のバイトしてたところに就職。Androidエンジニアとして仕方なくKotlinを使うことに\n\nときどきC#/Xamarinを使って開発もしてる"
+    "description": "アプリ開発のバイトしてたところに就職。AndroidエンジニアとしてKotlinを使ってアプリ開発を行っていたり、たまにC#/Xamarin.Androidを使って開発もする<br/><br/>自動化やCI/CDにロマンを感じ始め、自作OSSで使い始める"
   }
 ]

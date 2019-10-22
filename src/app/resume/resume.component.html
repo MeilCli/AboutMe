@@ -1,7 +1,11 @@
 <div class="container">
   <h3>レジュメ</h3>
+  <hr class="mb-4" />
+  <h4>スキル</h4>
   <p class="text-muted">
-    Level 1: AAA, Level 2: BBB, Level 3: CCC, Level 4: DDD, Level 5: EEE
+    Level 1: ちょっとかじった程度, Level 2: ちょっとした製作物を作った程度,
+    Level 3: 所々調べながら問題なく扱える, Level 4: 不自由なく扱える, Level 5:
+    プロフェッショナル
   </p>
   <div class="row">
     <app-skill-chart
@@ -12,7 +16,7 @@
     ></app-skill-chart>
   </div>
 
-  <h3>タイムライン</h3>
+  <h4>タイムライン</h4>
   <ul class="timeline">
     <li class="timeline-line"></li>
     <li class="timeline-group">
@@ -31,9 +35,7 @@
           </div>
         </div>
         <div class="timeline-content">
-          <p>
-            {{ timeline.description }}
-          </p>
+          <p [innerHTML]="timeline.description"></p>
         </div>
       </div>
     </li>

@@ -1,3 +1,22 @@
 .font-small {
   font-size: 0.9rem;
 }
+
+.fa-icon {
+  color: #495058;
+}
+
+.fa-icon:hover {
+  color: #007bff;
+}
+
+.link {
+  color: #495058;
+  border-bottom: dotted 1px #495058;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}

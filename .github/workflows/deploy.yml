@@ -15,7 +15,7 @@ jobs:
       env:
         CI: true
     - name: deploy
-      run: ng deploy
+      run: npm run deploy
       env:
-        NETLIFY_TOKEN: secrets.NETLIFY_TOKEN
-        NETLIFY_API_ID: secrets.NETLIFY_API_ID
+        NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        NETLIFY_API_ID: ${{ secrets.NETLIFY_API_ID }}

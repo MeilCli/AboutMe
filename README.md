@@ -1,4 +1,5 @@
 # AboutMe
+![](https://github.com/MeilCli/AboutMe/workflows/Deploy/badge.svg)  
 MeilCli's AboutMe Site
 
 ## License

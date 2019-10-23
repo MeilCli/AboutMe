@@ -28,8 +28,8 @@
   },
   {
     "title": "Jfol.Test",
-    "description": "https://github.com/MeilCli/Jfol.Test",
-    "url": "Jfolの様々な実装のためのテストデータ",
+    "description": "Jfolの様々な実装のためのテストデータ",
+    "url": "https://github.com/MeilCli/Jfol.Test",
     "path": null,
     "type": "その他",
     "relationShipToProduct": "オーナー",

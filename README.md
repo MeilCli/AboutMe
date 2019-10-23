@@ -3,7 +3,7 @@
 MeilCli's AboutMe Site
 
 ## License
-MIT License.
+[MIT License](LICENSE).
 
 ### Using
 - [Angular](https://github.com/angular/angular), published by [MIT License](https://github.com/angular/angular/blob/master/LICENSE)

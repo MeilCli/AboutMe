@@ -39,7 +39,7 @@
     "title": "setup-crystal-action",
     "description": "JavaScriptベースのCrystal環境をセットアップするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/setup-crystal-action",
-    "path": null,
+    "path": "/products/setup-crystal-action",
     "type": "アクション",
     "relationShipToProduct": "オーナー",
     "tags": ["Crystal"]

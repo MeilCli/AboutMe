@@ -6,6 +6,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { FormsModule } from "@angular/forms";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { ChartsModule } from "ng2-charts";
+import { MarkdownModule } from "ngx-markdown";
 
 import { AppRoutingModule } from "./app-routing.module";
 
@@ -23,6 +24,7 @@ import { ResumeComponent } from "./resume/resume.component";
 import { SkillChartComponent } from "./components/skill-chart/skill-chart.component";
 import { TimelineService } from "./services/timeline.service";
 import { AboutComponent } from "./about/about.component";
+import { ProductComponent } from "./products/product/product.component";
 
 @NgModule({
   declarations: [
@@ -35,7 +37,8 @@ import { AboutComponent } from "./about/about.component";
     ProductsComponent,
     ResumeComponent,
     SkillChartComponent,
-    AboutComponent
+    AboutComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
@@ -45,6 +48,7 @@ import { AboutComponent } from "./about/about.component";
     FontAwesomeModule,
     FormsModule,
     ChartsModule,
+    MarkdownModule.forRoot(),
     AppRoutingModule
   ],
   providers: [ProductService, SkillService, TimelineService],

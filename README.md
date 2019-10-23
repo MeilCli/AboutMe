@@ -15,3 +15,7 @@ MIT License.
 - [ng2-charts](https://github.com/valor-software/ng2-charts), published by [MIT License](https://github.com/valor-software/ng2-charts/blob/development/LICENSE)
 - [RxJS](https://github.com/ReactiveX/rxjs), published by [MIT License](https://github.com/ReactiveX/rxjs/blob/master/LICENSE.txt)
 - [tslib](https://github.com/Microsoft/tslib), published by [Apache License 2.0](https://github.com/microsoft/tslib/blob/master/LICENSE.txt)
+- [ngx-markdown](https://github.com/jfcere/ngx-markdown), published by [MIT License](https://github.com/jfcere/ngx-markdown/blob/master/LICENSE)
+- [marked](https://github.com/markedjs/marked), published by [MIT License](https://github.com/markedjs/marked/blob/master/LICENSE.md)
+- [prism](https://github.com/PrismJS/prism), published by [MIT License](https://github.com/PrismJS/prism/blob/master/LICENSE)
+- [prism-themes](https://github.com/PrismJS/prism-themes), published by [MIT License](https://github.com/PrismJS/prism-themes/blob/master/LICENSE)

@@ -6,11 +6,13 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 import { ProductsComponent } from "./products/products.component";
 import { ResumeComponent } from "./resume/resume.component";
 import { AboutComponent } from "./about/about.component";
+import { ProductComponent } from "./products/product/product.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "home", redirectTo: "" },
   { path: "products", component: ProductsComponent },
+  { path: "products/:id", component: ProductComponent },
   { path: "resume", component: ResumeComponent },
   { path: "about", component: AboutComponent },
   { path: "pages", loadChildren: "./pages/pages.module#PagesModule" },

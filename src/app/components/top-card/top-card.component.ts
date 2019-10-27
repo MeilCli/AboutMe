@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: "app-top-card",
@@ -14,6 +15,11 @@ export class TopCardComponent implements OnInit {
 
   @Input()
   path: string;
+
+  @Input()
+  externalLink = false;
+
+  faExternalLinkAlt = faExternalLinkAlt;
 
   constructor() {}
 

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: "app-product-card",
@@ -16,6 +17,8 @@ export class ProductCardComponent implements OnInit {
   relationShipToProduct: RelationShipToProduct;
   type: ProductType;
   tags: string[];
+
+  faExternalLinkAlt = faExternalLinkAlt;
 
   constructor() {}
 

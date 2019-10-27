@@ -93,7 +93,7 @@
     "title": "nuget-update-check-action",
     "description": "JavaScriptベースの使用しているNuGetのパッケージの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/nuget-update-check-action",
-    "path": null,
+    "path": "/products/nuget-update-check-action",
     "type": "アクション",
     "relationShipToProduct": "オーナー",
     "tags": ["NuGet", "update-check-action"]

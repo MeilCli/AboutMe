@@ -1,5 +1,5 @@
 <app-not-found *ngIf="notFound"></app-not-found>
-<div class="container" *ngIf="notFound === undefind || notFound === false">
+<div class="container" *ngIf="notFound === undefined || notFound === false">
   <div class="heading">
     <h1>{{ name }}</h1>
     <a class="btn btn-outline-primary" [href]="source" target="_blank"

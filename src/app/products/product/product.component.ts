@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { ProductService } from "src/app/services/product.service";
 import * as fm from "front-matter";
-import { MetaData, setMeta, setDefaultMeta } from "src/app/head";
+import { setMeta, setDefaultMeta } from "src/app/head";
 import { Title, Meta } from "@angular/platform-browser";
 
 interface FrontMatter {

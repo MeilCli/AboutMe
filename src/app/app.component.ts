@@ -10,14 +10,6 @@ import { filter } from "rxjs/operators";
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent implements OnInit {
-  title = "AboutMe";
-  faTwitter = faTwitter;
-  model = {
-    left: true,
-    middle: false,
-    right: false
-  };
-
   constructor(private router: Router, private gaService: GaService) {}
 
   ngOnInit() {

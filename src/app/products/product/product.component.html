@@ -1,4 +1,10 @@
 <app-not-found *ngIf="notFound"></app-not-found>
-<div class="container">
+<div class="container" *ngIf="notFound === undefind || notFound === false">
+  <div class="heading">
+    <h1>{{ name }}</h1>
+    <a class="btn btn-outline-primary" [href]="source" target="_blank"
+      >ソースコード</a
+    >
+  </div>
   <markdown [data]="markdown"></markdown>
 </div>

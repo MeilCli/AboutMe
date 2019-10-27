@@ -1,4 +1,7 @@
-# setup-crystal-action
+---
+source: https://github.com/MeilCli/setup-crystal-action
+name: setup-crystal-action
+---
 JavaScriptベースのCrystal環境をセットアップするGitHub Actionsのアクション
 
 ## 必須事項

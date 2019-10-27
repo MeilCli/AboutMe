@@ -19,3 +19,4 @@ MeilCli's AboutMe Site
 - [marked](https://github.com/markedjs/marked), published by [MIT License](https://github.com/markedjs/marked/blob/master/LICENSE.md)
 - [prism](https://github.com/PrismJS/prism), published by [MIT License](https://github.com/PrismJS/prism/blob/master/LICENSE)
 - [prism-themes](https://github.com/PrismJS/prism-themes), published by [MIT License](https://github.com/PrismJS/prism-themes/blob/master/LICENSE)
+- [front-matter](https://github.com/jxson/front-matter), published by [MIT License](https://github.com/jxson/front-matter/blob/master/LICENSE)

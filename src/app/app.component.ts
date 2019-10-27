@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { Router, NavigationEnd } from "@angular/router";
 import { GaService } from "./services/ga.service";
 import { filter } from "rxjs/operators";

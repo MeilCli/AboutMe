@@ -7,6 +7,7 @@ import { ProductsComponent } from "./products/products.component";
 import { ResumeComponent } from "./resume/resume.component";
 import { AboutComponent } from "./about/about.component";
 import { ProductComponent } from "./products/product/product.component";
+import { PrivacyComponent } from "./privacy/privacy.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: "products/:id", component: ProductComponent },
   { path: "resume", component: ResumeComponent },
   { path: "about", component: AboutComponent },
+  { path: "privacy", component: PrivacyComponent },
   { path: "pages", loadChildren: "./pages/pages.module#PagesModule" },
   { path: "**", component: NotFoundComponent }
 ];

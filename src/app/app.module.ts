@@ -25,6 +25,7 @@ import { TimelineService } from "./services/timeline.service";
 import { AboutComponent } from "./about/about.component";
 import { ProductComponent } from "./products/product/product.component";
 import { GaService } from "./services/ga.service";
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { GaService } from "./services/ga.service";
     ResumeComponent,
     SkillChartComponent,
     AboutComponent,
-    ProductComponent
+    ProductComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,

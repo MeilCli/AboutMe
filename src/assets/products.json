@@ -84,7 +84,7 @@
     "title": "gradle-update-check-action",
     "description": "JavaScriptベースのGradleで使用しているライブラリーの更新確認をするGitHub Actionsのアクション",
     "url": "https://github.com/MeilCli/gradle-update-check-action",
-    "path": null,
+    "path": "/products/gradle-update-check-action",
     "type": "アクション",
     "relationShipToProduct": "オーナー",
     "tags": ["Gradle", "update-check-action"]

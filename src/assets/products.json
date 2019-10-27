@@ -129,7 +129,7 @@
     "title": "DetectionCore",
     "description": ".NET Standard向けのUserAgentからブラウザ情報を検出するライブラリー",
     "url": "https://github.com/MeilCli/DetectionCore",
-    "path": null,
+    "path": "/products/detectioncore",
     "type": "ライブラリー",
     "relationShipToProduct": "オーナー",
     "tags": ["C#", ".NET Standard"]

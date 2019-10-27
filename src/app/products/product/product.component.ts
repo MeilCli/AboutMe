@@ -4,6 +4,7 @@ import { ProductService } from "src/app/services/product.service";
 import * as fm from "front-matter";
 import { setMeta, setDefaultMeta } from "src/app/head";
 import { Title, Meta } from "@angular/platform-browser";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 interface FrontMatter {
   attributes: MetaAttribute;
@@ -25,6 +26,8 @@ export class ProductComponent implements OnInit, OnDestroy {
   source: string;
   markdown: string;
   notFound: boolean;
+
+  faExternalLinkAlt = faExternalLinkAlt;
 
   constructor(
     private title: Title,

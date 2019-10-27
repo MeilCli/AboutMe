@@ -3,8 +3,8 @@
   <div class="heading">
     <h1>{{ name }}</h1>
     <a class="btn btn-outline-primary" [href]="source" target="_blank"
-      >ソースコード</a
-    >
+      >ソースコード <fa-icon [icon]="faExternalLinkAlt"></fa-icon
+    ></a>
   </div>
   <markdown [data]="markdown"></markdown>
 </div>

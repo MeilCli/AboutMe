@@ -1,27 +1,42 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, OnDestroy } from "@angular/core";
 import { ProductService } from "../services/product.service";
+import { Title, Meta } from "@angular/platform-browser";
+import { setDefaultMeta, setMeta } from "../head";
 
 @Component({
   selector: "app-products",
   templateUrl: "./products.component.html",
   styleUrls: ["./products.component.scss"]
 })
-export class ProductsComponent implements OnInit {
+export class ProductsComponent implements OnInit, OnDestroy {
   private productsSource: Product[];
   products: Product[];
   types: string[];
   relationShipToProducts: string[];
   tags: string[];
 
-  constructor(private productService: ProductService) {}
+  constructor(
+    private title: Title,
+    private meta: Meta,
+    private productService: ProductService
+  ) {}
 
   ngOnInit() {
+    setMeta(this.title, this.meta, {
+      title: "MeilCliの製作物 - MeilCli's AboutMe",
+      description: "MeilCliが製作したものです"
+    });
+
     this.productsSource = [];
     this.products = [];
     this.types = [];
     this.relationShipToProducts = [];
     this.tags = [];
     this.productService.getProducts().subscribe(x => this.setProducts(x));
+  }
+
+  ngOnDestroy() {
+    setDefaultMeta(this.title, this.meta);
   }
 
   private setProducts(products: Product[]) {

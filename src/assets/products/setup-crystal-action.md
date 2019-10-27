@@ -58,4 +58,4 @@ jobs:
   - インストールされたShardsのGitHub ReleaseのJsonです
 
 ## ライセンス
-[MIT License](LICENSE)
+MIT License

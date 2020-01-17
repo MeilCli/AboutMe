@@ -2,96 +2,246 @@
   {
     "category": "Static Typing Language",
     "elements": [
-      { "name": "C#", "point": 5 },
-      { "name": "Kotlin", "point": 5 },
-      { "name": "Java", "point": 4 },
-      { "name": "CIL", "point": 3 },
-      { "name": "Crystal", "point": 2 },
-      { "name": "Swift", "point": 2 },
-      { "name": "F#", "point": 1 },
-      { "name": "Go", "point": 1 }
+      {
+        "name": "C#",
+        "point": 5
+      },
+      {
+        "name": "Kotlin",
+        "point": 5
+      },
+      {
+        "name": "Java",
+        "point": 4
+      },
+      {
+        "name": "Crystal",
+        "point": 2
+      },
+      {
+        "name": "Swift",
+        "point": 2
+      },
+      {
+        "name": "F#",
+        "point": 1
+      },
+      {
+        "name": "Go",
+        "point": 1
+      }
     ]
   },
   {
     "category": "Dynamic Typing Language",
     "elements": [
-      { "name": "TypeScript", "point": 3 },
-      { "name": "JavaScript", "point": 2 },
-      { "name": "Groovy", "point": 3 },
-      { "name": "Ruby", "point": 2 },
-      { "name": "PHP", "point": 2 }
+      {
+        "name": "TypeScript",
+        "point": 3
+      },
+      {
+        "name": "JavaScript",
+        "point": 2
+      },
+      {
+        "name": "Groovy",
+        "point": 3
+      },
+      {
+        "name": "Ruby",
+        "point": 2
+      },
+      {
+        "name": "PHP",
+        "point": 2
+      }
     ]
   },
   {
     "category": "Other Language",
     "elements": [
-      { "name": "HTML", "point": 2 },
-      { "name": "CSS", "point": 2 },
-      { "name": "Scss", "point": 2 }
+      {
+        "name": "HTML",
+        "point": 2
+      },
+      {
+        "name": "CSS",
+        "point": 2
+      },
+      {
+        "name": "Scss",
+        "point": 2
+      },
+      {
+        "name": "CIL",
+        "point": 3
+      }
     ]
   },
   {
     "category": "Architecture",
     "elements": [
-      { "name": "MVVM", "point": 4 },
-      { "name": "MVP", "point": 4 },
-      { "name": "AAC", "point": 3 },
-      { "name": "MVI", "point": 2 },
-      { "name": "Flux", "point": 1 }
+      {
+        "name": "MVVM",
+        "point": 4
+      },
+      {
+        "name": "MVP",
+        "point": 4
+      },
+      {
+        "name": "AAC",
+        "point": 3
+      },
+      {
+        "name": "MVI",
+        "point": 2
+      },
+      {
+        "name": "Flux",
+        "point": 1
+      }
     ]
   },
   {
     "category": "Framework",
     "elements": [
-      { "name": "Android", "point": 5 },
-      { "name": ".NET Standard", "point": 4 },
-      { "name": "ASP .NET Core", "point": 2 },
-      { "name": "Blazor", "point": 1 },
-      { "name": "Xamarin.Android", "point": 4 },
-      { "name": "Bootstrap", "point": 3 },
-      { "name": "Ruby on Rails", "point": 2 },
-      { "name": "Angular", "point": 2 }
+      {
+        "name": "Android",
+        "point": 5
+      },
+      {
+        "name": ".NET Standard",
+        "point": 4
+      },
+      {
+        "name": "ASP .NET Core",
+        "point": 2
+      },
+      {
+        "name": "Blazor",
+        "point": 1
+      },
+      {
+        "name": "Xamarin.Android",
+        "point": 4
+      },
+      {
+        "name": "Bootstrap",
+        "point": 3
+      },
+      {
+        "name": "Ruby on Rails",
+        "point": 2
+      },
+      {
+        "name": "Angular",
+        "point": 3
+      }
     ]
   },
   {
     "category": "Runtime",
     "elements": [
-      { "name": ".NET Core", "point": 4 },
-      { "name": ".NET Framework", "point": 3 },
-      { "name": "JVM", "point": 3 }
+      {
+        "name": ".NET Core",
+        "point": 4
+      },
+      {
+        "name": ".NET Framework",
+        "point": 3
+      },
+      {
+        "name": "JVM",
+        "point": 3
+      }
     ]
   },
   {
     "category": "Tool",
     "elements": [
-      { "name": "Gradle", "point": 4 },
-      { "name": "git", "point": 3 },
-      { "name": "Visual Studio", "point": 3 },
-      { "name": "Visual Studio Code", "point": 3 },
-      { "name": "Visual Studio for Mac", "point": 3 },
-      { "name": "Android Studio", "point": 3 },
-      { "name": "IntelliJ IDEA", "point": 3 },
-      { "name": "Rider", "point": 3 },
-      { "name": "Xcode", "point": 2 }
+      {
+        "name": "Gradle",
+        "point": 4
+      },
+      {
+        "name": "git",
+        "point": 3
+      },
+      {
+        "name": "Visual Studio",
+        "point": 3
+      },
+      {
+        "name": "Visual Studio Code",
+        "point": 3
+      },
+      {
+        "name": "Visual Studio for Mac",
+        "point": 3
+      },
+      {
+        "name": "Android Studio",
+        "point": 3
+      },
+      {
+        "name": "IntelliJ IDEA",
+        "point": 3
+      },
+      {
+        "name": "Rider",
+        "point": 3
+      },
+      {
+        "name": "Xcode",
+        "point": 2
+      }
     ]
   },
   {
     "category": "Service",
     "elements": [
-      { "name": "Twitter", "point": 5 },
-      { "name": "GitHub", "point": 4 },
-      { "name": "GitLab", "point": 2 },
-      { "name": "Azure DevOps", "point": 2 },
-      { "name": "Bintray", "point": 2 }
+      {
+        "name": "Twitter",
+        "point": 5
+      },
+      {
+        "name": "GitHub",
+        "point": 4
+      },
+      {
+        "name": "GitLab",
+        "point": 2
+      },
+      {
+        "name": "Azure DevOps",
+        "point": 2
+      },
+      {
+        "name": "Bintray",
+        "point": 2
+      }
     ]
   },
   {
     "category": "CI/CD",
     "elements": [
-      { "name": "Azure Pipelines", "point": 4 },
-      { "name": "GitHub Actions", "point": 4 },
-      { "name": "Jenkins", "point": 1 },
-      { "name": "Drone.io", "point": 2 }
+      {
+        "name": "Azure Pipelines",
+        "point": 4
+      },
+      {
+        "name": "GitHub Actions",
+        "point": 4
+      },
+      {
+        "name": "Jenkins",
+        "point": 1
+      },
+      {
+        "name": "Drone.io",
+        "point": 2
+      }
     ]
   }
 ]

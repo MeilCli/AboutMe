@@ -28,7 +28,7 @@
             {{ timeline.date }}
           </div>
         </div>
-        <div class="timeline-content">
+        <div class="timeline-content" *ngIf="timeline.description != null">
           <p [innerHTML]="timeline.description"></p>
         </div>
       </div>

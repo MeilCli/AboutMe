@@ -214,5 +214,14 @@
     "type": "その他",
     "relationShipToProduct": "メインメンテナー",
     "tags": ["C#"]
+  },
+  {
+    "title": "Librarian",
+    "description": "Gradleプロジェクトで使っているライブラリーのライセンス通知を生成するツール",
+    "url": "https://github.com/MeilCli/Librarian",
+    "path": null,
+    "type": "ツール",
+    "relationShipToProduct": "オーナー",
+    "tags": ["Gradle", "Android"]
   }
 ]

@@ -35,13 +35,18 @@
     "description": "内定先でアプリ開発のバイトをした。このときは主にJavaでAndroidアプリの改修をしていた"
   },
   {
-    "title": "某アプリ開発会社",
-    "date": "2018 -",
+    "title": "Fenrir Inc.",
+    "date": "2018 - 2020",
     "description": "アプリ開発のバイトしてたところに就職。AndroidエンジニアとしてKotlinを使ってアプリ開発を行っていたり、たまにC#/Xamarin.Androidを使って開発もする"
   },
   {
     "title": "CI/CDエンジニアーへ",
     "date": "2018 -",
     "description": "旧VSTSがAzure DevOpsへの改名とともにAzure PipelinesがOSS向けに無料枠をふんだんに開放したことを受けて本格的にCI/CDデビューをする。自作OSSなどにAzure Pipelinesを導入へ<br/><br/>2019年夏にGitHub ActionsのバージョンアップでAzure Pipelinesのクローン版になり機能UPをしたためGitHub Actionsを使い始める。そしてactionを作るのにハマる"
+  },
+  {
+    "title": "某ベンチャー",
+    "date": "2020 - ",
+    "description": "自社サービスの開発をしてみたくなり転職。AndroidエンジニアをしながらCI/CDの整備などをする"
   }
 ]

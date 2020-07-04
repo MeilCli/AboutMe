@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { ChartDataSets, ChartType, RadialChartOptions } from "chart.js";
+import { ChartDataSets, ChartType, ChartOptions } from "chart.js";
+import * as annotationPlugin from "chartjs-plugin-annotation";
 import { Label } from "ng2-charts";
 
 @Component({
@@ -8,24 +9,52 @@ import { Label } from "ng2-charts";
   styleUrls: ["./skill-chart.component.scss"]
 })
 export class SkillChartComponent implements OnInit {
+  colors = [
+    "#ffc1ce",
+    "#aedaf7",
+    "#ffebbc",
+    "#cbcbcc",
+    "#b6e6e6",
+    "#d5e4eb",
+    "#ffc1ce",
+    "#aedaf7",
+    "#ffebbc",
+    "#cbcbcc",
+    "#b6e6e6",
+    "#d5e4eb",
+    "#ffc1ce",
+    "#aedaf7",
+    "#ffebbc",
+    "#cbcbcc",
+    "#b6e6e6",
+    "#d5e4eb"
+  ];
+
   @Input()
   skill: Skill;
-  @Input()
-  color: string;
 
-  chartType: ChartType = "radar";
-  chartOptions: RadialChartOptions = {
+  chartTitle = "";
+  chartPlugins = [annotationPlugin];
+  chartType: ChartType = "bar";
+  chartOptions: ChartOptions = {
     responsive: true,
     maintainAspectRatio: false,
-    scale: { ticks: { suggestedMin: 0, suggestedMax: 5, stepSize: 1 } },
+    legend: { display: false },
+    scales: {
+      xAxes: [{}],
+      yAxes: [{ ticks: { min: 0, max: 100, stepSize: 20 } }]
+    },
     tooltips: {
       callbacks: {
         label: (tootipItem, data) => {
-          return `Level: ${
+          return `Point: ${
             data.datasets[tootipItem.datasetIndex].data[tootipItem.index]
           }`;
         }
       }
+    },
+    annotation: {
+      annotations: []
     }
   };
   chartLabels: Label[] = [];
@@ -34,6 +63,8 @@ export class SkillChartComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
+    this.chartTitle = this.skill.category;
+
     const labels: Label[] = [];
     const data: number[] = [];
     for (const element of this.skill.elements) {
@@ -41,15 +72,35 @@ export class SkillChartComponent implements OnInit {
       data.push(element.point);
     }
     this.chartLabels = labels;
+    const colorSelector: (alpha: string) => string[] = alpha => {
+      return this.colors.map(x => `${x}${alpha}`);
+    };
     this.chartData = [
       {
         data,
-        label: this.skill.category,
-        borderColor: `${this.color}9e`,
-        backgroundColor: `${this.color}6e`,
-        pointBackgroundColor: `${this.color}de`,
-        pointBorderColor: `${this.color}de`
+        borderColor: colorSelector("9e"),
+        backgroundColor: colorSelector("6e"),
+        hoverBackgroundColor: colorSelector("de"),
+        hoverBorderColor: colorSelector("de")
       } as ChartDataSets
     ];
+
+    this.chartOptions.annotation.annotations = [];
+    for (const label of this.skill.labels) {
+      this.chartOptions.annotation.annotations.push({
+        drawTime: "afterDatasetsDraw",
+        type: "line",
+        mode: "horizontal",
+        borderColor: "black",
+        borderWidth: 3,
+        value: label.point,
+        scaleID: "y-axis-0",
+        label: {
+          backgroundColor: "#3cb371",
+          content: label.name,
+          enabled: true
+        }
+      });
+    }
   }
 }

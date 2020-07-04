@@ -2,17 +2,11 @@
   <h3>レジュメ</h3>
   <hr class="mb-4" />
   <h4>スキル</h4>
-  <p class="text-muted">
-    Level 1: ちょっとかじった程度, Level 2: ちょっとした製作物を作った程度,
-    Level 3: 所々調べながら問題なく扱える, Level 4: 不自由なく扱える, Level 5:
-    プロフェッショナル
-  </p>
   <div class="row">
     <app-skill-chart
-      class="col-12 col-md-6 col-lg-4"
+      class="col-12"
       *ngFor="let skill of skills; let i = index"
       [skill]="skill"
-      [color]="colors[i % colors.length]"
     ></app-skill-chart>
   </div>
 

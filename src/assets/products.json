@@ -222,6 +222,6 @@
     "path": null,
     "type": "ツール",
     "relationShipToProduct": "オーナー",
-    "tags": ["Gradle", "Android"]
+    "tags": ["Gradle", "Android", "Kotlin"]
   }
 ]

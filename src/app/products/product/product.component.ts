@@ -41,7 +41,7 @@ export class ProductComponent implements OnInit, OnDestroy {
     if (snapshot.params.id) {
       this.productService.getProduct(`${snapshot.params.id}.md`).subscribe(
         x => {
-          const frontMatter: FrontMatter = fm(x);
+          const frontMatter: FrontMatter = fm.default(x);
           setMeta(this.title, this.meta, {
             title: `${frontMatter.attributes.name} - MeilCli's AboutMe`,
             description: `${frontMatter.attributes.name}の紹介ページです`

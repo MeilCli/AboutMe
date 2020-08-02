@@ -22,7 +22,7 @@
         <app-product-card *ngFor="let product of products | productFilter: 'isMaintain':true" [product]="product">
         </app-product-card>
     </div>
-    <h4>メンテナンスできてないもの</h4>
+    <h4 *ngIf="0 < (products | productFilter: 'isMaintain':false).length">メンテナンスできてないもの</h4>
     <div class="card-columns">
         <app-product-card *ngFor="let product of products | productFilter: 'isMaintain':false" [product]="product">
         </app-product-card>

@@ -6,6 +6,7 @@ interface Product {
     readonly type: ProductType;
     readonly relationShipToProduct: RelationShipToProduct;
     readonly tags: string[];
+    readonly isMaintain: boolean;
 }
 
 type ProductType = "その他" | "ライブラリー" | "アプリケーション" | "ツール" | "アクション";

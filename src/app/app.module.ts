@@ -26,6 +26,7 @@ import { AboutComponent } from "./about/about.component";
 import { ProductComponent } from "./products/product/product.component";
 import { GaService } from "./services/ga.service";
 import { PrivacyComponent } from "./privacy/privacy.component";
+import { ProductFilterPipe } from './products/product-filter.pipe';
 
 @NgModule({
     declarations: [
@@ -41,6 +42,7 @@ import { PrivacyComponent } from "./privacy/privacy.component";
         AboutComponent,
         ProductComponent,
         PrivacyComponent,
+        ProductFilterPipe,
     ],
     imports: [
         BrowserModule,

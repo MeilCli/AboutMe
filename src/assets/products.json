@@ -6,7 +6,8 @@
         "path": null,
         "type": "その他",
         "relationShipToProduct": "オーナー",
-        "tags": ["Jfol"]
+        "tags": ["Jfol"],
+        "isMaintain": false
     },
     {
         "title": "Jfol.TS",
@@ -15,7 +16,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "オーナー",
-        "tags": ["TypeScript", "Jfol"]
+        "tags": ["TypeScript", "Jfol"],
+        "isMaintain": false
     },
     {
         "title": "Jfol.Playground",
@@ -24,7 +26,8 @@
         "path": null,
         "type": "アプリケーション",
         "relationShipToProduct": "オーナー",
-        "tags": ["TypeScript", "Jfol", "Angular"]
+        "tags": ["TypeScript", "Jfol", "Angular"],
+        "isMaintain": false
     },
     {
         "title": "Jfol.Test",
@@ -33,7 +36,8 @@
         "path": null,
         "type": "その他",
         "relationShipToProduct": "オーナー",
-        "tags": ["Jfol"]
+        "tags": ["Jfol"],
+        "isMaintain": false
     },
     {
         "title": "setup-crystal-action",
@@ -42,7 +46,8 @@
         "path": "/products/setup-crystal-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Crystal"]
+        "tags": ["Crystal"],
+        "isMaintain": true
     },
     {
         "title": "test-command-action",
@@ -51,7 +56,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": []
+        "tags": [],
+        "isMaintain": true
     },
     {
         "title": "carthage-update-check-action",
@@ -60,7 +66,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Carthage", "update-check-action"]
+        "tags": ["Carthage", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "swiftpm-update-check-action",
@@ -69,7 +76,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["SwiftPM", "update-check-action"]
+        "tags": ["SwiftPM", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "cocoapods-update-check-action",
@@ -78,7 +86,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["CocoaPods", "update-check-action"]
+        "tags": ["CocoaPods", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "gradle-update-check-action",
@@ -87,7 +96,8 @@
         "path": "/products/gradle-update-check-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Gradle", "update-check-action"]
+        "tags": ["Gradle", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "nuget-update-check-action",
@@ -96,7 +106,8 @@
         "path": "/products/nuget-update-check-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["NuGet", "update-check-action"]
+        "tags": ["NuGet", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "npm-update-check-action",
@@ -105,7 +116,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["npm", "update-check-action"]
+        "tags": ["npm", "update-check-action"],
+        "isMaintain": true
     },
     {
         "title": "danger-action",
@@ -114,7 +126,8 @@
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Danger"]
+        "tags": ["Danger"],
+        "isMaintain": true
     },
     {
         "title": "SharedProperty",
@@ -123,7 +136,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "オーナー",
-        "tags": ["C#", ".NET Standard"]
+        "tags": ["C#", ".NET Standard"],
+        "isMaintain": false
     },
     {
         "title": "DetectionCore",
@@ -132,7 +146,8 @@
         "path": "/products/detectioncore",
         "type": "ライブラリー",
         "relationShipToProduct": "オーナー",
-        "tags": ["C#", ".NET Standard"]
+        "tags": ["C#", ".NET Standard"],
+        "isMaintain": false
     },
     {
         "title": "AboutMe",
@@ -141,7 +156,8 @@
         "path": null,
         "type": "アプリケーション",
         "relationShipToProduct": "オーナー",
-        "tags": ["TypeScript", "Angular"]
+        "tags": ["TypeScript", "Angular"],
+        "isMaintain": true
     },
     {
         "title": "actions",
@@ -150,7 +166,8 @@
         "path": null,
         "type": "その他",
         "relationShipToProduct": "オーナー",
-        "tags": []
+        "tags": [],
+        "isMaintain": true
     },
     {
         "title": "GradleMultiDensitySpoonPlugin",
@@ -159,7 +176,8 @@
         "path": null,
         "type": "ツール",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["Gradle", "Android"]
+        "tags": ["Gradle", "Android"],
+        "isMaintain": false
     },
     {
         "title": "RetektRule",
@@ -168,7 +186,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["Kotlin", "detekt"]
+        "tags": ["Kotlin", "detekt"],
+        "isMaintain": false
     },
     {
         "title": "Mindy",
@@ -177,7 +196,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["Kotlin", "DI"]
+        "tags": ["Kotlin", "DI"],
+        "isMaintain": false
     },
     {
         "title": "GithubLabelSetUpper",
@@ -186,7 +206,8 @@
         "path": null,
         "type": "ツール",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["C#", "GitHub", "Gitea"]
+        "tags": ["C#", "GitHub", "Gitea"],
+        "isMaintain": false
     },
     {
         "title": "NavigationExtensions",
@@ -195,7 +216,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["Kotlin", "Android"]
+        "tags": ["Kotlin", "Android"],
+        "isMaintain": false
     },
     {
         "title": "Almanakka",
@@ -204,7 +226,8 @@
         "path": null,
         "type": "ライブラリー",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["Kotlin", "Android"]
+        "tags": ["Kotlin", "Android"],
+        "isMaintain": false
     },
     {
         "title": "AlmanakkaTestDataCreator",
@@ -213,7 +236,8 @@
         "path": null,
         "type": "その他",
         "relationShipToProduct": "メインメンテナー",
-        "tags": ["C#"]
+        "tags": ["C#"],
+        "isMaintain": false
     },
     {
         "title": "Librarian",
@@ -222,6 +246,7 @@
         "path": null,
         "type": "ツール",
         "relationShipToProduct": "オーナー",
-        "tags": ["Gradle", "Android", "Kotlin"]
+        "tags": ["Gradle", "Android", "Kotlin"],
+        "isMaintain": true
     }
 ]

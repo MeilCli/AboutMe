@@ -10,24 +10,24 @@ import { ProductComponent } from "./products/product/product.component";
 import { PrivacyComponent } from "./privacy/privacy.component";
 
 const routes: Routes = [
-  { path: "", component: HomeComponent },
-  { path: "home", redirectTo: "" },
-  { path: "products", component: ProductsComponent },
-  { path: "products/:id", component: ProductComponent },
-  { path: "resume", component: ResumeComponent },
-  { path: "about", component: AboutComponent },
-  { path: "privacy", component: PrivacyComponent },
-  { path: "pages", loadChildren: "./pages/pages.module#PagesModule" },
-  { path: "**", component: NotFoundComponent }
+    { path: "", component: HomeComponent },
+    { path: "home", redirectTo: "" },
+    { path: "products", component: ProductsComponent },
+    { path: "products/:id", component: ProductComponent },
+    { path: "resume", component: ResumeComponent },
+    { path: "about", component: AboutComponent },
+    { path: "privacy", component: PrivacyComponent },
+    { path: "pages", loadChildren: "./pages/pages.module#PagesModule" },
+    { path: "**", component: NotFoundComponent },
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      scrollPositionRestoration: "enabled",
-      anchorScrolling: "enabled"
-    })
-  ],
-  exports: [RouterModule]
+    imports: [
+        RouterModule.forRoot(routes, {
+            scrollPositionRestoration: "enabled",
+            anchorScrolling: "enabled",
+        }),
+    ],
+    exports: [RouterModule],
 })
 export class AppRoutingModule {}

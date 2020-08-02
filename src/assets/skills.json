@@ -1,101 +1,101 @@
 [
-  {
-    "category": "Language",
-    "labels": [
-      { "name": "業務レベル", "point": 50 },
-      { "name": "ライブラリー開発者レベル", "point": 70 }
-    ],
-    "elements": [
-      { "name": "C#", "point": 90 },
-      { "name": "Kotlin", "point": 80 },
-      { "name": "Java", "point": 70 },
-      { "name": "CIL", "point": 40 },
-      { "name": "Crystal", "point": 10 },
-      { "name": "Swift", "point": 10 },
-      { "name": "F#", "point": 10 },
-      { "name": "Go", "point": 10 },
-      { "name": "TypeScript", "point": 60 },
-      { "name": "JavaScript", "point": 30 },
-      { "name": "Groovy", "point": 40 },
-      { "name": "Ruby", "point": 30 },
-      { "name": "PHP", "point": 20 },
-      { "name": "HTML", "point": 30 },
-      { "name": "CSS", "point": 30 },
-      { "name": "Scss", "point": 30 }
-    ]
-  },
-  {
-    "category": "Platform",
-    "labels": [
-      { "name": "業務レベル", "point": 50 },
-      { "name": "ライブラリー開発者レベル", "point": 70 }
-    ],
-    "elements": [
-      { "name": ".NET Core", "point": 70 },
-      { "name": ".NET Framework", "point": 50 },
-      { "name": ".NET Standard", "point": 80 },
-      { "name": "ASP .NET Core", "point": 30 },
-      { "name": "Blazor", "point": 20 },
-      { "name": "Xamarin.Android", "point": 90 },
-      { "name": "JVM", "point": 60 },
-      { "name": "Android", "point": 90 },
-      { "name": "Bootstrap", "point": 40 },
-      { "name": "Ruby on Rails", "point": 20 },
-      { "name": "Angular", "point": 40 }
-    ]
-  },
-  {
-    "category": "Software Architecture & Design Pattern",
-    "labels": [
-      { "name": "業務レベル", "point": 50 },
-      { "name": "コンポーネント自作レベル", "point": 70 }
-    ],
-    "elements": [
-      { "name": "MVVM", "point": 80 },
-      { "name": "MVP", "point": 70 },
-      { "name": "MVI", "point": 30 },
-      { "name": "MVU", "point": 20 },
-      { "name": "AAC", "point": 50 },
-      { "name": "Flux", "point": 10 },
-      { "name": "DDD", "point": 20 },
-      { "name": "Clean Architecture", "point": 20 },
-      { "name": "Onion Architecture", "point": 10 }
-    ]
-  },
-  {
-    "category": "Tool",
-    "labels": [
-      { "name": "業務レベル", "point": 50 },
-      { "name": "プラグイン開発者レベル", "point": 70 }
-    ],
-    "elements": [
-      { "name": "Gradle", "point": 70 },
-      { "name": "git", "point": 50 },
-      { "name": "Visual Studio", "point": 60 },
-      { "name": "Visual Studio Code", "point": 60 },
-      { "name": "Visual Studio for Mac", "point": 50 },
-      { "name": "Android Studio", "point": 60 },
-      { "name": "IntelliJ IDEA", "point": 50 },
-      { "name": "Rider", "point": 50 },
-      { "name": "Xcode", "point": 20 }
-    ]
-  },
-  {
-    "category": "Service",
-    "labels": [
-      { "name": "業務レベル", "point": 50 },
-      { "name": "ライブラリー開発者レベル", "point": 70 }
-    ],
-    "elements": [
-      { "name": "Twitter", "point": 70 },
-      { "name": "GitHub", "point": 60 },
-      { "name": "GitHub Actions", "point": 80 },
-      { "name": "GitLab", "point": 50 },
-      { "name": "Azure DevOps", "point": 40 },
-      { "name": "Azure Pipelines", "point": 60 },
-      { "name": "Bintray", "point": 40 },
-      { "name": "Jenkins", "point": 10 },
-      { "name": "Drone.io", "point": 10 }
-    ]
-  }
+    {
+        "category": "Language",
+        "labels": [
+            { "name": "業務レベル", "point": 50 },
+            { "name": "ライブラリー開発者レベル", "point": 70 }
+        ],
+        "elements": [
+            { "name": "C#", "point": 90 },
+            { "name": "Kotlin", "point": 80 },
+            { "name": "Java", "point": 70 },
+            { "name": "CIL", "point": 40 },
+            { "name": "Crystal", "point": 10 },
+            { "name": "Swift", "point": 10 },
+            { "name": "F#", "point": 10 },
+            { "name": "Go", "point": 10 },
+            { "name": "TypeScript", "point": 60 },
+            { "name": "JavaScript", "point": 30 },
+            { "name": "Groovy", "point": 40 },
+            { "name": "Ruby", "point": 30 },
+            { "name": "PHP", "point": 20 },
+            { "name": "HTML", "point": 30 },
+            { "name": "CSS", "point": 30 },
+            { "name": "Scss", "point": 30 }
+        ]
+    },
+    {
+        "category": "Platform",
+        "labels": [
+            { "name": "業務レベル", "point": 50 },
+            { "name": "ライブラリー開発者レベル", "point": 70 }
+        ],
+        "elements": [
+            { "name": ".NET Core", "point": 70 },
+            { "name": ".NET Framework", "point": 50 },
+            { "name": ".NET Standard", "point": 80 },
+            { "name": "ASP .NET Core", "point": 30 },
+            { "name": "Blazor", "point": 20 },
+            { "name": "Xamarin.Android", "point": 90 },
+            { "name": "JVM", "point": 60 },
+            { "name": "Android", "point": 90 },
+            { "name": "Bootstrap", "point": 40 },
+            { "name": "Ruby on Rails", "point": 20 },
+            { "name": "Angular", "point": 40 }
+        ]
+    },
+    {
+        "category": "Software Architecture & Design Pattern",
+        "labels": [
+            { "name": "業務レベル", "point": 50 },
+            { "name": "コンポーネント自作レベル", "point": 70 }
+        ],
+        "elements": [
+            { "name": "MVVM", "point": 80 },
+            { "name": "MVP", "point": 70 },
+            { "name": "MVI", "point": 30 },
+            { "name": "MVU", "point": 20 },
+            { "name": "AAC", "point": 50 },
+            { "name": "Flux", "point": 10 },
+            { "name": "DDD", "point": 20 },
+            { "name": "Clean Architecture", "point": 20 },
+            { "name": "Onion Architecture", "point": 10 }
+        ]
+    },
+    {
+        "category": "Tool",
+        "labels": [
+            { "name": "業務レベル", "point": 50 },
+            { "name": "プラグイン開発者レベル", "point": 70 }
+        ],
+        "elements": [
+            { "name": "Gradle", "point": 70 },
+            { "name": "git", "point": 50 },
+            { "name": "Visual Studio", "point": 60 },
+            { "name": "Visual Studio Code", "point": 60 },
+            { "name": "Visual Studio for Mac", "point": 50 },
+            { "name": "Android Studio", "point": 60 },
+            { "name": "IntelliJ IDEA", "point": 50 },
+            { "name": "Rider", "point": 50 },
+            { "name": "Xcode", "point": 20 }
+        ]
+    },
+    {
+        "category": "Service",
+        "labels": [
+            { "name": "業務レベル", "point": 50 },
+            { "name": "ライブラリー開発者レベル", "point": 70 }
+        ],
+        "elements": [
+            { "name": "Twitter", "point": 70 },
+            { "name": "GitHub", "point": 60 },
+            { "name": "GitHub Actions", "point": 80 },
+            { "name": "GitLab", "point": 50 },
+            { "name": "Azure DevOps", "point": 40 },
+            { "name": "Azure Pipelines", "point": 60 },
+            { "name": "Bintray", "point": 40 },
+            { "name": "Jenkins", "point": 10 },
+            { "name": "Drone.io", "point": 10 }
+        ]
+    }
 ]

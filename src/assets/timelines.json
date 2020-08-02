@@ -1,52 +1,52 @@
 [
-  {
-    "title": "プログラミングとの出会い",
-    "date": "2011 - 2012",
-    "description": "Twitterのフォロワーに勧められてPHPでTwitterのツールを作り始めたのがプログラミングとの出会い。この頃はかなりの初心者"
-  },
-  {
-    "title": "アプリを作り始める",
-    "date": "2012 -",
-    "description": "自分のスマホで動くアプリを作りたくなり、当時持っていたスマホがAndroidだったためAndroidアプリを作り始める。この頃になりデザインパターンやアーキテクチャーなどといったプログラミング方法論を学び始める"
-  },
-  {
-    "title": "C#との出会い",
-    "date": "2013 -",
-    "description": "スマホアプリだけじゃ飽き足らずWindowsアプリも作ってみたいなぁと思っていた頃にTwitterのフォロワーのGitHubアカウントを眺めていたらC#と運命的な出会いを果たす<br/><br/>そしてWindowsアプリを作らずにC#の沼に沈んでいく"
-  },
-  {
-    "title": "大学生活",
-    "date": "2014 - 2018",
-    "description": "私立の某情報系学部に進学したものの周りにプログラミング強い人がおらず、大学では情報科学の基礎のみを学ぶことになる\nついでに心理学・政治学・経済学も学んでおいたものの卒業とともに忘れていってる模様<br/><br/>この頃になると自作ライブラリーを公開しては飽きて他のを作り直すというのを繰り返す"
-  },
-  {
-    "title": "Kotlinを使い始める",
-    "date": "2015 - 2016",
-    "description": "この頃はC#にどっぷりハマっていた一方で作りたかったのはAndroidアプリだった。ちょうどそのときにC#の影響を受けたKotlinがAndroid界隈で噂になり始めたのでKotlinを使い始める"
-  },
-  {
-    "title": "Xamarin.Androidを使い始める",
-    "date": "2016 - 2018",
-    "description": "Xamarinがマイクロソフトの手によって個人向け無償化したことにより、自分の中でのKotlinの時代が終了。その後C#でAndroidアプリ開発をすることになる<br/><br/>しかしAndroidがApp Bundleの時代になると、さすがにXamarin.Androidだとつらいと感じ始める。もう一度Kotlinへ"
-  },
-  {
-    "title": "アプリ開発のバイト",
-    "date": "2017 - 2018",
-    "description": "内定先でアプリ開発のバイトをした。このときは主にJavaでAndroidアプリの改修をしていた"
-  },
-  {
-    "title": "Fenrir Inc.",
-    "date": "2018 - 2020",
-    "description": "アプリ開発のバイトしてたところに就職。AndroidエンジニアとしてKotlinを使ってアプリ開発を行っていたり、たまにC#/Xamarin.Androidを使って開発もする"
-  },
-  {
-    "title": "CI/CDエンジニアーへ",
-    "date": "2018 -",
-    "description": "旧VSTSがAzure DevOpsへの改名とともにAzure PipelinesがOSS向けに無料枠をふんだんに開放したことを受けて本格的にCI/CDデビューをする。自作OSSなどにAzure Pipelinesを導入へ<br/><br/>2019年夏にGitHub ActionsのバージョンアップでAzure Pipelinesのクローン版になり機能UPをしたためGitHub Actionsを使い始める。そしてactionを作るのにハマる"
-  },
-  {
-    "title": "某ベンチャー",
-    "date": "2020 - ",
-    "description": "自社サービスの開発をしてみたくなり転職。AndroidエンジニアをしながらCI/CDの整備などをする"
-  }
+    {
+        "title": "プログラミングとの出会い",
+        "date": "2011 - 2012",
+        "description": "Twitterのフォロワーに勧められてPHPでTwitterのツールを作り始めたのがプログラミングとの出会い。この頃はかなりの初心者"
+    },
+    {
+        "title": "アプリを作り始める",
+        "date": "2012 -",
+        "description": "自分のスマホで動くアプリを作りたくなり、当時持っていたスマホがAndroidだったためAndroidアプリを作り始める。この頃になりデザインパターンやアーキテクチャーなどといったプログラミング方法論を学び始める"
+    },
+    {
+        "title": "C#との出会い",
+        "date": "2013 -",
+        "description": "スマホアプリだけじゃ飽き足らずWindowsアプリも作ってみたいなぁと思っていた頃にTwitterのフォロワーのGitHubアカウントを眺めていたらC#と運命的な出会いを果たす<br/><br/>そしてWindowsアプリを作らずにC#の沼に沈んでいく"
+    },
+    {
+        "title": "大学生活",
+        "date": "2014 - 2018",
+        "description": "私立の某情報系学部に進学したものの周りにプログラミング強い人がおらず、大学では情報科学の基礎のみを学ぶことになる\nついでに心理学・政治学・経済学も学んでおいたものの卒業とともに忘れていってる模様<br/><br/>この頃になると自作ライブラリーを公開しては飽きて他のを作り直すというのを繰り返す"
+    },
+    {
+        "title": "Kotlinを使い始める",
+        "date": "2015 - 2016",
+        "description": "この頃はC#にどっぷりハマっていた一方で作りたかったのはAndroidアプリだった。ちょうどそのときにC#の影響を受けたKotlinがAndroid界隈で噂になり始めたのでKotlinを使い始める"
+    },
+    {
+        "title": "Xamarin.Androidを使い始める",
+        "date": "2016 - 2018",
+        "description": "Xamarinがマイクロソフトの手によって個人向け無償化したことにより、自分の中でのKotlinの時代が終了。その後C#でAndroidアプリ開発をすることになる<br/><br/>しかしAndroidがApp Bundleの時代になると、さすがにXamarin.Androidだとつらいと感じ始める。もう一度Kotlinへ"
+    },
+    {
+        "title": "アプリ開発のバイト",
+        "date": "2017 - 2018",
+        "description": "内定先でアプリ開発のバイトをした。このときは主にJavaでAndroidアプリの改修をしていた"
+    },
+    {
+        "title": "Fenrir Inc.",
+        "date": "2018 - 2020",
+        "description": "アプリ開発のバイトしてたところに就職。AndroidエンジニアとしてKotlinを使ってアプリ開発を行っていたり、たまにC#/Xamarin.Androidを使って開発もする"
+    },
+    {
+        "title": "CI/CDエンジニアーへ",
+        "date": "2018 -",
+        "description": "旧VSTSがAzure DevOpsへの改名とともにAzure PipelinesがOSS向けに無料枠をふんだんに開放したことを受けて本格的にCI/CDデビューをする。自作OSSなどにAzure Pipelinesを導入へ<br/><br/>2019年夏にGitHub ActionsのバージョンアップでAzure Pipelinesのクローン版になり機能UPをしたためGitHub Actionsを使い始める。そしてactionを作るのにハマる"
+    },
+    {
+        "title": "某ベンチャー",
+        "date": "2020 - ",
+        "description": "自社サービスの開発をしてみたくなり転職。AndroidエンジニアをしながらCI/CDの整備などをする"
+    }
 ]

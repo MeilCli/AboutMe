@@ -28,31 +28,31 @@ import { GaService } from "./services/ga.service";
 import { PrivacyComponent } from "./privacy/privacy.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    NotFoundComponent,
-    FooterComponent,
-    TopCardComponent,
-    ProductCardComponent,
-    ProductsComponent,
-    ResumeComponent,
-    SkillChartComponent,
-    AboutComponent,
-    ProductComponent,
-    PrivacyComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    NgbModule,
-    FontAwesomeModule,
-    FormsModule,
-    ChartsModule,
-    MarkdownModule.forRoot(),
-    AppRoutingModule
-  ],
-  providers: [GaService, ProductService, SkillService, TimelineService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        NotFoundComponent,
+        FooterComponent,
+        TopCardComponent,
+        ProductCardComponent,
+        ProductsComponent,
+        ResumeComponent,
+        SkillChartComponent,
+        AboutComponent,
+        ProductComponent,
+        PrivacyComponent,
+    ],
+    imports: [
+        BrowserModule,
+        HttpClientModule,
+        NgbModule,
+        FontAwesomeModule,
+        FormsModule,
+        ChartsModule,
+        MarkdownModule.forRoot(),
+        AppRoutingModule,
+    ],
+    providers: [GaService, ProductService, SkillService, TimelineService],
+    bootstrap: [AppComponent],
 })
 export class AppModule {}

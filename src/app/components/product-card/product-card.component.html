@@ -1,26 +1,15 @@
 <div class="card mb-4 box-shadow">
-  <div class="card-body">
-    <h5 class="card-title">{{ title }}</h5>
-    <p class="card-text">{{ description }}</p>
-    <a
-      class="btn btn-outline-primary stretched-link"
-      *ngIf="path != null"
-      [routerLink]="path"
-      >表示する</a
-    >
-    <a
-      class="btn btn-outline-primary stretched-link"
-      *ngIf="path == null"
-      [href]="url"
-      target="_blank"
-      >リポジトリーへ <fa-icon [icon]="faExternalLinkAlt"></fa-icon
-    ></a>
-  </div>
-  <div class="card-footer">
-    <span class="badge badge-info">{{ type }}</span
-    ><span class="badge badge-success ml-1">{{ relationShipToProduct }}</span
-    ><span class="badge badge-secondary ml-1" *ngFor="let tag of tags">{{
-      tag
-    }}</span>
-  </div>
+    <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">{{ description }}</p>
+        <a class="btn btn-outline-primary stretched-link" *ngIf="path != null" [routerLink]="path">表示する</a>
+        <a class="btn btn-outline-primary stretched-link" *ngIf="path == null" [href]="url" target="_blank"
+            >リポジトリーへ <fa-icon [icon]="faExternalLinkAlt"></fa-icon
+        ></a>
+    </div>
+    <div class="card-footer">
+        <span class="badge badge-info">{{ type }}</span
+        ><span class="badge badge-success ml-1">{{ relationShipToProduct }}</span
+        ><span class="badge badge-secondary ml-1" *ngFor="let tag of tags">{{ tag }}</span>
+    </div>
 </div>

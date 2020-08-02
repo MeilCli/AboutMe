@@ -1,154 +1,150 @@
 <div class="container">
-  <h3>MeilCliについて</h3>
-  <hr />
+    <h3>MeilCliについて</h3>
+    <hr />
 
-  <p>C#大好きマン(あとペンギンの画像も好き)</p>
+    <p>C#大好きマン(あとペンギンの画像も好き)</p>
 
-  <h4>性格について</h4>
-  <p>
-    性格を16分類する系の診断ではほとんどの場合で<a
-      href="https://www.16personalities.com/ja/intp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC"
-      target="_blank"
-      >INTP</a
-    >判定されるのでINTPについてググったらみたらいいと思う。理論だけ組み立てて実現可能とわかれば飽きる傾向にあるのでOSSのメンテナンスが全くできてない(改善しようとは思ってる)
-  </p>
+    <h4>性格について</h4>
+    <p>
+        性格を16分類する系の診断ではほとんどの場合で<a
+            href="https://www.16personalities.com/ja/intp%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC"
+            target="_blank"
+            >INTP</a
+        >判定されるのでINTPについてググったらみたらいいと思う。理論だけ組み立てて実現可能とわかれば飽きる傾向にあるのでOSSのメンテナンスが全くできてない(改善しようとは思ってる)
+    </p>
 
-  <h4>タイムライン</h4>
-  <ul class="timeline">
-    <li class="timeline-line"></li>
-    <li class="timeline-group">
-      <h4><span class="badge badge-pill badge-primary">1995</span></h4>
-    </li>
-  </ul>
-  <ul class="timeline">
-    <li class="timeline-line"></li>
-    <li class="timeline-item" *ngFor="let timeline of timelines">
-      <div class="timeline-badge"></div>
-      <div class="timeline-panel">
-        <div class="timeline-heading">
-          {{ timeline.title }}
-          <div class="timeline-date">
-            {{ timeline.date }}
-          </div>
+    <h4>タイムライン</h4>
+    <ul class="timeline">
+        <li class="timeline-line"></li>
+        <li class="timeline-group">
+            <h4><span class="badge badge-pill badge-primary">1995</span></h4>
+        </li>
+    </ul>
+    <ul class="timeline">
+        <li class="timeline-line"></li>
+        <li class="timeline-item" *ngFor="let timeline of timelines">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    {{ timeline.title }}
+                    <div class="timeline-date">
+                        {{ timeline.date }}
+                    </div>
+                </div>
+                <div class="timeline-content" *ngIf="timeline.description != null">
+                    <p [innerHTML]="timeline.description"></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul class="timeline">
+        <li class="timeline-line"></li>
+        <li class="timeline-group">
+            <h4><span class="badge badge-pill badge-primary">Today</span></h4>
+        </li>
+    </ul>
+    <ul class="timeline">
+        <li class="timeline-line"></li>
+        <!-- /.timeline-line -->
+        <li class="timeline-item block">
+            <div class="timeline-badge"></div>
+            <div class="timeline-panel">
+                <div class="timeline-content">
+                    <div class="text-center">
+                        <p>
+                            出身はどこですか？と聞かれると必ず困ってしまう原因がこれ<br />話し言葉は横浜弁と関西弁が5:1ぐらいで混ざってると思われる
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h4>好きなもの</h4>
+            <ul>
+                <li>C#</li>
+                <li>ペンギンの画像</li>
+                <li>Twitter</li>
+                <li>
+                    ゲーム
+                    <ul>
+                        <li>BFシリーズ</li>
+                        <li>CoD MWシリーズ</li>
+                        <li>HoIシリーズ</li>
+                        <li>Stellaris</li>
+                    </ul>
+                </li>
+                <li>
+                    映画
+                    <ul>
+                        <li>スターウォーズ</li>
+                        <li>パイレーツオブカリビアン</li>
+                    </ul>
+                </li>
+                <li>
+                    ドラマ
+                    <ul>
+                        <li>スターゲイト SG-1</li>
+                        <li>スターゲイト アトランティス</li>
+                        <li>FRINGE</li>
+                        <li>マーズ 火星移住計画</li>
+                        <li>サルベーション</li>
+                        <li>12モンキーズ</li>
+                    </ul>
+                </li>
+                <li>
+                    アニメ
+                    <ul>
+                        <li>幼女戦記</li>
+                        <li>エロマンガ先生</li>
+                        <li>とある魔術の禁書目録</li>
+                        <li>とある科学の超電磁砲</li>
+                        <li>進撃の巨人</li>
+                        <li>ガンダム SEED</li>
+                        <li>ガンダム OO</li>
+                        <li>斉木楠雄のΨ難</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-        <div class="timeline-content" *ngIf="timeline.description != null">
-          <p [innerHTML]="timeline.description"></p>
-        </div>
-      </div>
-    </li>
-  </ul>
-  <ul class="timeline">
-    <li class="timeline-line"></li>
-    <li class="timeline-group">
-      <h4><span class="badge badge-pill badge-primary">Today</span></h4>
-    </li>
-  </ul>
-  <ul class="timeline">
-    <li class="timeline-line"></li>
-    <!-- /.timeline-line -->
-    <li class="timeline-item block">
-      <div class="timeline-badge"></div>
-      <div class="timeline-panel">
-        <div class="timeline-content">
-          <div class="text-center">
-            <p>
-              出身はどこですか？と聞かれると必ず困ってしまう原因がこれ<br />話し言葉は横浜弁と関西弁が5:1ぐらいで混ざってると思われる
-            </p>
-          </div>
-        </div>
-      </div>
-    </li>
-  </ul>
+        <div class="col-12 col-md-6">
+            <h4>嫌いなもの</h4>
+            <ul>
+                <li>Java</li>
+                <li>VisualBasic</li>
+                <li>きのこ</li>
+            </ul>
 
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <h4>好きなもの</h4>
-      <ul>
-        <li>C#</li>
-        <li>ペンギンの画像</li>
-        <li>Twitter</li>
-        <li>
-          ゲーム
-          <ul>
-            <li>BFシリーズ</li>
-            <li>CoD MWシリーズ</li>
-            <li>HoIシリーズ</li>
-            <li>Stellaris</li>
-          </ul>
-        </li>
-        <li>
-          映画
-          <ul>
-            <li>スターウォーズ</li>
-            <li>パイレーツオブカリビアン</li>
-          </ul>
-        </li>
-        <li>
-          ドラマ
-          <ul>
-            <li>スターゲイト SG-1</li>
-            <li>スターゲイト アトランティス</li>
-            <li>FRINGE</li>
-            <li>マーズ 火星移住計画</li>
-            <li>サルベーション</li>
-            <li>12モンキーズ</li>
-          </ul>
-        </li>
-        <li>
-          アニメ
-          <ul>
-            <li>幼女戦記</li>
-            <li>エロマンガ先生</li>
-            <li>とある魔術の禁書目録</li>
-            <li>とある科学の超電磁砲</li>
-            <li>進撃の巨人</li>
-            <li>ガンダム SEED</li>
-            <li>ガンダム OO</li>
-            <li>斉木楠雄のΨ難</li>
-          </ul>
-        </li>
-      </ul>
+            <h4>得意科目</h4>
+            <ul>
+                <li>数学</li>
+                <li>情報学</li>
+                <li>政治学</li>
+                <li>経済学</li>
+            </ul>
+
+            <h4>リンク集</h4>
+            <ul>
+                <li><a href="https://github.com/MeilCli" target="_blank">GitHub</a></li>
+                <li><a href="http://qiita.com/MeilCli" target="_blank">Qiita</a></li>
+                <li>
+                    <a href="https://teratail.com/users/meilcli" target="_blank">Teratail</a>
+                </li>
+                <li>
+                    <a href="https://bintray.com/meilcli" target="_blank">Bintray</a>
+                </li>
+                <li>
+                    <a href="https://www.nuget.org/profiles/meilcli" target="_blank">NuGet</a>
+                </li>
+                <li>
+                    <a href="https://www.npmjs.com/~meilcli" target="_blank">npm</a>
+                </li>
+                <li>
+                    <a href="https://annict.jp/@penguin_sharp" target="_blank">annict</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="col-12 col-md-6">
-      <h4>嫌いなもの</h4>
-      <ul>
-        <li>Java</li>
-        <li>VisualBasic</li>
-        <li>きのこ</li>
-      </ul>
-
-      <h4>得意科目</h4>
-      <ul>
-        <li>数学</li>
-        <li>情報学</li>
-        <li>政治学</li>
-        <li>経済学</li>
-      </ul>
-
-      <h4>リンク集</h4>
-      <ul>
-        <li><a href="https://github.com/MeilCli" target="_blank">GitHub</a></li>
-        <li><a href="http://qiita.com/MeilCli" target="_blank">Qiita</a></li>
-        <li>
-          <a href="https://teratail.com/users/meilcli" target="_blank"
-            >Teratail</a
-          >
-        </li>
-        <li>
-          <a href="https://bintray.com/meilcli" target="_blank">Bintray</a>
-        </li>
-        <li>
-          <a href="https://www.nuget.org/profiles/meilcli" target="_blank"
-            >NuGet</a
-          >
-        </li>
-        <li>
-          <a href="https://www.npmjs.com/~meilcli" target="_blank">npm</a>
-        </li>
-        <li>
-          <a href="https://annict.jp/@penguin_sharp" target="_blank">annict</a>
-        </li>
-      </ul>
-    </div>
-  </div>
 </div>

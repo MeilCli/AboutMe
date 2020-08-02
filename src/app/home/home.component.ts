@@ -3,16 +3,16 @@ import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { SizeProp } from "@fortawesome/fontawesome-svg-core";
 
 @Component({
-  selector: "app-home",
-  templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"]
+    selector: "app-home",
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-  faTwitter = faTwitter;
-  faGithub = faGithub;
-  faSize: SizeProp = "2x";
+    faTwitter = faTwitter;
+    faGithub = faGithub;
+    faSize: SizeProp = "2x";
 
-  constructor() {}
+    constructor() {}
 
-  ngOnInit() {}
+    ngOnInit() {}
 }

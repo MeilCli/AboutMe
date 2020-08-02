@@ -1,19 +1,14 @@
 <div class="card mb-4 box-shadow">
-  <div class="card-body">
-    <h5 class="card-title">{{ title }}</h5>
-    <p class="card-text">{{ description }}</p>
-    <p class="text-left" *ngIf="externalLink === false">
-      <a class="btn btn-outline-primary stretched-link" [routerLink]="path"
-        >表示する</a
-      >
-    </p>
-    <p class="text-left" *ngIf="externalLink">
-      <a
-        class="btn btn-outline-primary stretched-link"
-        [href]="path"
-        target="_blank"
-        >表示する <fa-icon [icon]="faExternalLinkAlt"></fa-icon
-      ></a>
-    </p>
-  </div>
+    <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">{{ description }}</p>
+        <p class="text-left" *ngIf="externalLink === false">
+            <a class="btn btn-outline-primary stretched-link" [routerLink]="path">表示する</a>
+        </p>
+        <p class="text-left" *ngIf="externalLink">
+            <a class="btn btn-outline-primary stretched-link" [href]="path" target="_blank"
+                >表示する <fa-icon [icon]="faExternalLinkAlt"></fa-icon
+            ></a>
+        </p>
+    </div>
 </div>

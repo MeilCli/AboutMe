@@ -41,92 +41,92 @@
     },
     {
         "title": "setup-crystal-action",
-        "description": "JavaScriptベースのCrystal環境をセットアップするGitHub Actionsのアクション",
+        "description": "Crystal環境をセットアップするGitHub Action",
         "url": "https://github.com/MeilCli/setup-crystal-action",
         "path": "/products/setup-crystal-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Crystal"],
+        "tags": ["TypeScript", "Crystal"],
         "isMaintain": true
     },
     {
         "title": "test-command-action",
-        "description": "JavaScriptベースのコマンドをテストするためのGitHub Actionsのアクション",
+        "description": "コマンドをテストするためのGitHub Action",
         "url": "https://github.com/MeilCli/test-command-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": [],
+        "tags": ["TypeScript"],
         "isMaintain": true
     },
     {
         "title": "carthage-update-check-action",
-        "description": "JavaScriptベースの使用しているCarthageのパッケージの更新確認をするGitHub Actionsのアクション",
+        "description": "使用しているCarthageのパッケージの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/carthage-update-check-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Carthage", "update-check-action"],
+        "tags": ["TypeScript", "Carthage", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "swiftpm-update-check-action",
-        "description": "JavaScriptベースの使用しているSwiftPMのパッケージの更新確認をするGitHub Actionsのアクション",
+        "description": "使用しているSwiftPMのパッケージの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/swiftpm-update-check-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["SwiftPM", "update-check-action"],
+        "tags": ["TypeScript", "SwiftPM", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "cocoapods-update-check-action",
-        "description": "JavaScriptベースの使用しているCocoaPodsのパッケージの更新確認をするGitHub Actionsのアクション",
+        "description": "使用しているCocoaPodsのパッケージの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/cocoapods-update-check-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["CocoaPods", "update-check-action"],
+        "tags": ["TypeScript", "CocoaPods", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "gradle-update-check-action",
-        "description": "JavaScriptベースのGradleで使用しているライブラリーの更新確認をするGitHub Actionsのアクション",
+        "description": "Gradleで使用しているライブラリーの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/gradle-update-check-action",
         "path": "/products/gradle-update-check-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Gradle", "update-check-action"],
+        "tags": ["TypeScript", "Gradle", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "nuget-update-check-action",
-        "description": "JavaScriptベースの使用しているNuGetのパッケージの更新確認をするGitHub Actionsのアクション",
+        "description": "使用しているNuGetのパッケージの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/nuget-update-check-action",
         "path": "/products/nuget-update-check-action",
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["NuGet", "update-check-action"],
+        "tags": ["TypeScript", "NuGet", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "npm-update-check-action",
-        "description": "JavaScriptベースの使用しているnpmのパッケージの更新確認をするGitHub Actionsのアクション",
+        "description": "使用しているnpmのパッケージの更新確認をするGitHub Action",
         "url": "https://github.com/MeilCli/npm-update-check-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["npm", "update-check-action"],
+        "tags": ["TypeScript", "npm", "update-check-action"],
         "isMaintain": true
     },
     {
         "title": "danger-action",
-        "description": "JavaScriptベースのDangerを実行するGitHub Actionsのアクション",
+        "description": "Dangerを実行するGitHub Action",
         "url": "https://github.com/MeilCli/danger-action",
         "path": null,
         "type": "アクション",
         "relationShipToProduct": "オーナー",
-        "tags": ["Danger"],
+        "tags": ["TypeScript", "Danger"],
         "isMaintain": true
     },
     {
@@ -247,6 +247,46 @@
         "type": "ツール",
         "relationShipToProduct": "オーナー",
         "tags": ["Gradle", "Android", "Kotlin"],
+        "isMaintain": true
+    },
+    {
+        "title": "slack-upload-file",
+        "description": "SlackにファイルをアップロードするGitHub Action",
+        "url": "https://github.com/MeilCli/slack-upload-file",
+        "path": null,
+        "type": "アクション",
+        "relationShipToProduct": "オーナー",
+        "tags": ["TypeScript", "Slack"],
+        "isMaintain": true
+    },
+    {
+        "title": "android-lint-statistics",
+        "description": "android-lintの結果を集計してチャートを生成するGitHub Action",
+        "url": "https://github.com/MeilCli/android-lint-statistics",
+        "path": null,
+        "type": "アクション",
+        "relationShipToProduct": "オーナー",
+        "tags": ["TypeScript", "Android"],
+        "isMaintain": true
+    },
+    {
+        "title": "detekt-statistics",
+        "description": "detektの結果を集計してチャートを生成するGitHub Action",
+        "url": "https://github.com/MeilCli/detekt-statistics",
+        "path": null,
+        "type": "アクション",
+        "relationShipToProduct": "オーナー",
+        "tags": ["TypeScript", "detekt"],
+        "isMaintain": true
+    },
+    {
+        "title": "bump-release-action",
+        "description": "PullRequestとCommitからリリースノート作成と次のバージョンを決定しGitHub Releaseを作成するGitHub Action",
+        "url": "https://github.com/MeilCli/bump-release-action",
+        "path": null,
+        "type": "アクション",
+        "relationShipToProduct": "オーナー",
+        "tags": ["TypeScript", "GitHub"],
         "isMaintain": true
     }
 ]

@@ -40,7 +40,7 @@
         "description": "アプリ開発のバイトしてたところに就職。AndroidエンジニアとしてKotlinを使ってアプリ開発を行っていたり、たまにC#/Xamarin.Androidを使って開発もする"
     },
     {
-        "title": "CI/CDエンジニアーへ",
+        "title": "CI/CDエンジニアへ",
         "date": "2018 -",
         "description": "旧VSTSがAzure DevOpsへの改名とともにAzure PipelinesがOSS向けに無料枠をふんだんに開放したことを受けて本格的にCI/CDデビューをする。自作OSSなどにAzure Pipelinesを導入へ<br/><br/>2019年夏にGitHub ActionsのバージョンアップでAzure Pipelinesのクローン版になり機能UPをしたためGitHub Actionsを使い始める。そしてactionを作るのにハマる"
     },

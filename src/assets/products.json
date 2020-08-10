@@ -288,5 +288,15 @@
         "relationShipToProduct": "オーナー",
         "tags": ["TypeScript", "GitHub"],
         "isMaintain": true
+    },
+    {
+        "title": "regex-match",
+        "description": "GitHub Actionで正規表現matchするだけのaction",
+        "url": "https://github.com/MeilCli/regex-match",
+        "path": null,
+        "type": "アクション",
+        "relationShipToProduct": "オーナー",
+        "tags": ["TypeScript"],
+        "isMaintain": true
     }
 ]

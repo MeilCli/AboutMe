@@ -22,7 +22,7 @@
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
                         "tsConfig": "tsconfig.app.json",
-                        "aot": false,
+                        "aot": true,
                         "assets": ["src/favicon.ico", "src/_redirects", "src/sitemap.xml", "src/ads.txt", "src/assets"],
                         "styles": [
                             "src/styles.scss",
@@ -30,7 +30,7 @@
                             "node_modules/prism-themes/themes/prism-vs.css"
                         ],
                         "scripts": [
-                            "node_modules/marked/lib/marked.js",
+                            "node_modules/marked/marked.min.js",
                             "node_modules/prismjs/prism.js",
                             "node_modules/prismjs/components/prism-cil.min.js",
                             "node_modules/prismjs/components/prism-clike.min.js",
@@ -137,5 +137,8 @@
             }
         }
     },
-    "defaultProject": "AboutMe"
+    "defaultProject": "AboutMe",
+    "cli": {
+        "analytics": false
+    }
 }

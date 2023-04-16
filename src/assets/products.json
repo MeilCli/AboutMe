@@ -247,7 +247,7 @@
         "type": "ツール",
         "relationShipToProduct": "オーナー",
         "tags": ["Gradle", "Android", "Kotlin"],
-        "isMaintain": true
+        "isMaintain": false
     },
     {
         "title": "slack-upload-file",

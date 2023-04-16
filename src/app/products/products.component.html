@@ -7,23 +7,20 @@
         <button class="btn btn-info btn-sm m-1" *ngFor="let type of types" (click)="typeFilter(type)">
             {{ type }}
         </button>
-        <button
-            class="btn btn-success btn-sm m-1"
-            *ngFor="let relationShipToProduct of relationShipToProducts"
-            (click)="relationShipToProductFilter(relationShipToProduct)"
-        >
+        <button class="btn btn-success btn-sm m-1" *ngFor="let relationShipToProduct of relationShipToProducts"
+            (click)="relationShipToProductFilter(relationShipToProduct)">
             {{ relationShipToProduct }}
         </button>
         <button class="btn btn-secondary btn-sm m-1" *ngFor="let tag of tags" (click)="tagFilter(tag)">
             {{ tag }}
         </button>
     </div>
-    <div class="card-columns">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         <app-product-card *ngFor="let product of products | productFilter: 'isMaintain':true" [product]="product">
         </app-product-card>
     </div>
     <h4 *ngIf="0 < (products | productFilter: 'isMaintain':false).length">メンテナンスできてないもの</h4>
-    <div class="card-columns">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         <app-product-card *ngFor="let product of products | productFilter: 'isMaintain':false" [product]="product">
         </app-product-card>
     </div>

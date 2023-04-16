@@ -17,7 +17,7 @@ const routes: Routes = [
     { path: "resume", component: ResumeComponent },
     { path: "about", component: AboutComponent },
     { path: "privacy", component: PrivacyComponent },
-    { path: "pages", loadChildren: "./pages/pages.module#PagesModule" },
+    { path: "pages", loadChildren: () => import("./pages/pages.module").then(x => x.PagesModule) },
     { path: "**", component: NotFoundComponent },
 ];
 

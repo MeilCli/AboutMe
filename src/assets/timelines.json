@@ -45,8 +45,13 @@
         "description": "旧VSTSがAzure DevOpsへの改名とともにAzure PipelinesがOSS向けに無料枠をふんだんに開放したことを受けて本格的にCI/CDデビューをする。自作OSSなどにAzure Pipelinesを導入へ<br/><br/>2019年夏にGitHub ActionsのバージョンアップでAzure Pipelinesのクローン版になり機能UPをしたためGitHub Actionsを使い始める。そしてactionを作るのにハマる"
     },
     {
-        "title": "某ベンチャー",
-        "date": "2020 - ",
+        "title": "dely株式会社",
+        "date": "2020 - 2022",
         "description": "自社サービスの開発をしてみたくなり転職。AndroidエンジニアをしながらCI/CDの整備などをする"
+    },
+    {
+        "title": "某メガベンチャー",
+        "date": "2022 -",
+        "description": "フルリモートで働いてみたくなり転職。相変わらずAndroidエンジニアをしている"
     }
 ]

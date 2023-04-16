@@ -1,61 +1,35 @@
 <div class="container">
-    <div class="jumbotron">
-        <h1 class="display-4">ようこそ！</h1>
-        <p class="lead">
-            このサイトはMeilCliの様々な製作物や経歴などなどをまとめておくところです
-        </p>
-        <hr class="my-4" />
-        <p class="text-center">
-            <a class="btn-floating btn-tw fa-icon mr-2" href="https://twitter.com/penguin_sharp" target="_blank">
-                <fa-icon [icon]="faTwitter" [size]="faSize"></fa-icon>
-            </a>
-            <a class="btn-floating btn-dribbble fa-icon ml-2" href="https://github.com/MeilCli" target="_blank">
-                <fa-icon [icon]="faGithub" [size]="faSize"></fa-icon>
-            </a>
-        </p>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-4 fw-bold">ようこそ！</h1>
+            <p class="lead">
+                このサイトはMeilCliの様々な製作物や経歴などなどをまとめておくところです
+            </p>
+            <hr class="my-4" />
+            <p class="text-center">
+                <a class="btn-floating btn-tw fa-icon me-2" href="https://twitter.com/penguin_sharp" target="_blank">
+                    <fa-icon [icon]="faTwitter" [size]="faSize"></fa-icon>
+                </a>
+                <a class="btn-floating btn-dribbble fa-icon ms-2" href="https://github.com/MeilCli" target="_blank">
+                    <fa-icon [icon]="faGithub" [size]="faSize"></fa-icon>
+                </a>
+            </p>
+        </div>
     </div>
     <div class="row">
-        <app-top-card
-            class="col-md-4"
-            title="製作物"
-            description="MeilCliが過去に作った製作物の中からピックアップした製作物の一覧です"
-            path="/products"
-        ></app-top-card>
-        <app-top-card
-            class="col-md-4"
-            title="レジュメ"
-            description="MeilCliのスキルや経歴をまとめたレジュメです"
-            path="/resume"
-        ></app-top-card>
-        <app-top-card
-            class="col-md-4"
-            title="MeilCliについて"
-            description="MeilCliの個人的なことについてまとめたページです"
-            path="/about"
-        ></app-top-card>
-        <app-top-card
-            class="col-md-4"
-            title="ブログ"
-            description="MeilCliのブログです。主に技術系記事を書いています"
-            path="https://blog.meilcli.net"
-            externalLink="true"
-        >
+        <app-top-card class="col-md-4" title="製作物" description="過去に作った製作物の中からピックアップした一覧です"
+            path="/products"></app-top-card>
+        <app-top-card class="col-md-4" title="レジュメ" description="スキルや経歴をまとめたレジュメです" path="/resume"></app-top-card>
+        <app-top-card class="col-md-4" title="MeilCliについて" description="個人的なことについてまとめたページです"
+            path="/about"></app-top-card>
+        <app-top-card class="col-md-4" title="ブログ" description="主に技術系記事を書いています" path="https://blog.meilcli.net"
+            externalLink="true">
         </app-top-card>
-        <app-top-card
-            class="col-md-4"
-            title="Qiita"
-            description="MeilCliのQiitaです。ブログに載せていないものはこちらに書いてます"
-            path="https://qiita.com/MeilCli"
-            externalLink="true"
-        >
+        <app-top-card class="col-md-4" title="Qiita" description="ブログに載せていないものはこちらに書いてます"
+            path="https://qiita.com/MeilCli" externalLink="true">
         </app-top-card>
-        <app-top-card
-            class="col-md-4"
-            title="penguin.photo"
-            description="MeilCliが今までに撮影したペンギンの画像集です"
-            path="https://penguin.photos"
-            externalLink="true"
-        >
+        <app-top-card class="col-md-4" title="penguin.photo" description="今までに撮影したペンギンの画像集です"
+            path="https://penguin.photos" externalLink="true">
         </app-top-card>
     </div>
 </div>
